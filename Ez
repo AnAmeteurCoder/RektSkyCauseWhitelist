@@ -7,13 +7,7 @@ local entity = loadstring(game:HttpGet("https://raw.githubusercontent.com/7Grand
 local whiteliststhing = {}
 
 pcall(function()
-    whiteliststhing = local whitelists = {
-   [1] = "3422112152",
-   [2] = "3558391731",
-   [3] = "3528220536",
-   [4] = "3911224327"
- }
-return whitelists
+   whitelists = loadstring(game:HttpGet("https://raw.githubusercontent.com/AnAmeteurCoder/RektSkySpoofedWhitelists/main/Harhar"))()
 end)
 
 do
